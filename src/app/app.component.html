@@ -1,7 +1,11 @@
-<H1>This is my first angular project</H1>
 
-<app-test></app-test>
+<div style="display: flex; gap: 5px;">
+    <div>Header</div>
+    <a routerLink='/'>Home</a>
+    <a routerLink='/about'>About</a>
 
-<app-about></app-about>
+</div>
 
-<app-first></app-first>
+<router-outlet></router-outlet>
+
+<h4 style="bottom: 0px;">footer</h4>
